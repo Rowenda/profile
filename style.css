@@ -1,0 +1,141 @@
+body {
+  background: linear-gradient(0.25turn, rgb(145, 206, 165), rgb(204, 118, 48));
+}
+
+header img{
+  width: 15rem;
+  border-radius: 15%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: #6f8a65 4px 8px;
+  color:rgb(124, 14, 36);
+}
+
+p {
+  font-family: 'Lobster', cursive;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+i.icon.fab.fa-facebook-square {
+  width: 32px;
+  height: 32px;
+  color: blue
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.3rem;
+}
+
+li>a {
+  text-decoration: none;
+  color:rgb(33, 82, 14);
+}
+
+header {
+  width: 20rem;
+  border-radius: 20%;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(00.25turn, #b6975c,#a7ae7a) ;
+}
+
+article {
+  width: 20rem;
+  height: 22rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkgrey;
+  border-radius: 25%;
+  padding-top: 1rem;
+}
+
+footer {
+  width: 20rem;
+  margin: 1rem auto 0;
+}
+
+footer ol {
+  text-align: center;
+  padding: 0;
+  background-color: darkgrey;
+  border-radius: 10%;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  border: 0;
+  background-color: rgb(20, 120, 219);
+  font-weight: 800;
+}
+
+@media (min-width: 540px){
+    header img {
+  width: 24rem;
+}
+
+header {
+  width: 28rem;
+}
+
+article {
+  width: 28rem;
+  height: 16rem;
+}
+
+footer {
+  width: 28rem;
+  margin: 2rem auto 0;
+}
+}
+
+
+@media (min-width: 720px) {
+  header img {
+  width: 30rem;
+}
+
+header {
+  width: 35rem;
+}
+
+article {
+  width: 32rem;
+  height: 16rem;
+}
+
+footer {
+  width: 28rem;
+  margin: 2rem auto 0;
+}
+
+}
+
+@media (min-width: 960px ){
+    header img {
+  width: 36rem;
+}
+
+header {
+  width: 45rem;
+}
+
+article {
+  width: 45rem;
+  height: 12rem;
+}
+
+footer {
+  width: 36rem;
+  margin: 3rem auto 0;
+}
+}
