@@ -78,6 +78,13 @@ button {
   font-weight: 800;
 }
 
+button:hover {
+  background-color: rgb(88, 126, 163);
+}
+
+a:hover {
+  color:crimson;
+}
 @media (min-width: 540px){
     header img {
   width: 24rem;
